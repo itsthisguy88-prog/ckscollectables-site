@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CK's Collectables LLC</title>
+<meta name="description" content="CK's Collectables LLC – Pokémon TCG cards, raw and graded, sold through our eBay store CKSCOLLECTABLES.">
+<style>
+  :root {
+    --bg: #f6f7fb;
+    --card: #ffffff;
+    --ink: #1b1f2a;
+    --muted: #5b6275;
+    --accent: #e3350d;
+    --accent-dark: #b82a0a;
+    --gold: #ffcb05;
+    --line: #e4e7ef;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.6;
+  }
+  header {
+    background: var(--ink);
+    color: #fff;
+    padding: 56px 16px 64px;
+    text-align: center;
+    border-bottom: 6px solid var(--gold);
+  }
+  header h1 {
+    margin: 0 0 8px;
+    font-size: clamp(2rem, 6vw, 3rem);
+    letter-spacing: 0.5px;
+  }
+  header p {
+    margin: 0 auto;
+    max-width: 560px;
+    color: #c9cedb;
+    font-size: 1.1rem;
+  }
+  main {
+    max-width: 760px;
+    margin: -32px auto 48px;
+    padding: 0 16px;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 28px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 18px rgba(27, 31, 42, 0.06);
+  }
+  .card h2 {
+    margin-top: 0;
+    font-size: 1.35rem;
+  }
+  .btn {
+    display: inline-block;
+    background: var(--accent);
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 12px 22px;
+    border-radius: 10px;
+    margin-top: 6px;
+  }
+  .btn:hover { background: var(--accent-dark); }
+  ul { padding-left: 20px; margin: 0; }
+  li { margin-bottom: 6px; }
+  .contact-row { margin: 6px 0; }
+  .contact-row strong { display: inline-block; min-width: 90px; }
+  a { color: var(--accent); }
+  footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.9rem;
+    padding: 0 16px 40px;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>CK's Collectables LLC</h1>
+    <p>Pokémon trading cards, raw and graded, packed with care and shipped fast.</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>About us</h2>
+      <p>CK's Collectables LLC is a Kentucky-based business selling Pokémon TCG cards, from raw singles to PSA, CGC and other graded slabs. Every card is checked before it ships. Raw cards go out in a penny sleeve and toploader, and graded slabs are bubble-wrapped in a padded mailer.</p>
+    </section>
+
+    <section class="card">
+      <h2>Shop our store</h2>
+      <p>All of our cards are sold through our eBay store, <strong>CKSCOLLECTABLES</strong>.</p>
+      <a class="btn" href="https://www.ebay.com/usr/ckscollectables" target="_blank" rel="noopener">Visit our eBay store</a>
+    </section>
+
+    <section class="card">
+      <h2>What we carry</h2>
+      <ul>
+        <li>Graded Pokémon cards (PSA, CGC and more)</li>
+        <li>Raw singles in English and Japanese</li>
+        <li>Rare, holo and special art cards</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Contact</h2>
+      <p class="contact-row"><strong>Business:</strong> CK's Collectables LLC</p>
+      <p class="contact-row"><strong>Email:</strong> <a href="mailto:info@ckscollectables.com">info@ckscollectables.com</a></p>
+      <p class="contact-row"><strong>Location:</strong> Ashland, Kentucky</p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; <span id="yr">2026</span> CK's Collectables LLC. All rights reserved.
+  </footer>
+
+  <script>
+    document.getElementById("yr").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
